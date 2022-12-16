@@ -24,9 +24,14 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-3#av2c6nptlbbb6^muqkchu&fe3wv&n$t2+g$v!ir-f5%doocb'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = FALSE
 
 ALLOWED_HOSTS = [
+    'happystudent.fun',
+    'happywebsite.azurewebsites.net',
+    '20.118.40.6',
+    'https://happystudent.fun',
+    'https://happywebsite.azurewebsites.net', 
     '*',
 ]
 
